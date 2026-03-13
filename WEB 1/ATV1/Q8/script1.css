@@ -1,0 +1,23 @@
+body {
+            background-color: #808080; 
+            color: white;             
+            font-family: sans-serif;
+        }
+
+        h1 {
+            background-color: #011f26;
+            color: white;              
+            padding: 10px;             
+            text-align: center;
+        }
+
+        .assinatura {
+            background-color: #bfb78f; 
+            color: black;
+            padding: 5px;
+            text-align: right;
+        }
+
+        h2 {
+            color:#025E73;
+        }
