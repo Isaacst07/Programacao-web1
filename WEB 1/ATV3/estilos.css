@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-image: linear-gradient(to left, rgb(73, 70, 70), rgb(164, 162, 162), rgb(73, 70, 70));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+}
+
+section {
+    flex: 3;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+}
+
+.card * {
+    margin-bottom: 10px;
+}
+
+.card {
+    border: 1px dotted gray;
+    background-color: white;
+    color: black;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.card a, .card a:visited {
+    color: gray;
+}
+
+.card a:hover {
+    color: darkgray;
+}
+
+.card ul, .card ol {
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+.card h2 {
+    border-bottom: 1px dotted gray;
+    border-left: 10px solid gray;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 15px 5px #000000
+}
+
+nav {
+    margin: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: lightgray;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: black;
+    padding: 50px;
+    box-shadow: -5px -5px 10px 10px #313131
+}
+
+header h1 {
+    font-size: 5rem;
+    margin-bottom: 25px;
+}
+
+
+.qs-light {
+    font-family: "Quicksand", sans-serif;
+}
+
+.qs-strong {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+}
+
+.tilt-light {
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.tilt-italic {
+    font-family: "Tilt Neon", sans-serif;
+    font-style: italic;
+}
+
+
+
+h1 {}
+
+.autor-data {
+    text-align: right;
+    color: #888888
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.laranja {
+    color: orange;
+}
+
+.ciano {
+    color: #00ffff;
+}
+
+.cinza {
+    color: #aaa;
+}
+
+.direita {
+    text-align: right;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.entre-linhas {
+    line-height: 2;
+}
+
+.entre-letras {
+    letter-spacing: 10px;
+}
+
+.imagem-relativa {
+    width: 50%;
+    height: 20px;
+}
+
+
+.div1,
+.div2,
+.div3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.div1 {
+    background-image: url("imagens/favicon.ico");
+    ;
+}
+
+.div2 {
+    background-image: url("imagens/favicon.ico");
+    background-repeat: repeat-x;
+}
+
+.div3 {
+    background-image: url("imagens/favicon.ico");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ol-item1 {
+    list-style-type: lower-alpha;
+}
+
+.ol-item2 {
+    list-style-type: upper-roman;
+}
+
+.ol-item3 {
+    list-style-type: lower-greek;
+}
+
+.ol-item4 {
+    list-style-type: decimal-leading-zero;
+}
+
+.ul-item1 {
+    list-style-type: square;
+}
+
+.ul-item2 {
+    list-style-type: circle;
+}
+
+.ul-item3 {
+    list-style-type: disc;
+}
+
+.ul-item4 {
+    list-style-image: url("imagens/seta1.png");
+}
+
+.ul-item5 {
+    list-style-type: none;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(150, 230, 230);
+    text-decoration: underline;
+}
+
+a:active,
+a:focus {
+    color: rgb(150, 230, 230);
+    text-decoration: none;
+}
+
+.tabela1 {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.tabela1 td {
+    border: 1px solid gray;
+
+}
+
+.tabela2 {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabela2 th {
+    background-color: darkslategray;
+    color: white;
+
+}
+
+.tabela2 th,
+.tabela2 td {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.tabela2 tr:nth-child(even) {
+    background-color: #555;
+    color: white
+}
+
+.tabela2 tr:nth-child(odd) {
+    background-color: #444;
+    color: white
+}
+
+.tabela2 tr:hover {
+    background-color: #666;
+    color: white
+}
+
+.tabela2 td:first-child {
+    text-align: left;
+}
+
+.tabela3 td {
+    border: 1px solid gray;
+}
+
+
+
+#bm-1 {
+    border: 1px solid red;
+    margin: 0px 20% 5px 20%;
+}
+
+#bm-2 {
+    border-top: 1px dotted blue;
+    border-right: 1px solid green;
+    border-bottom: 1px dashed yellow;
+    border-left: 1px dashed red;
+}
+
+#bm-3 {
+    border: 1px solid orange;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+
+}
+
+@media (max-width: 900px) {
+
+    article,
+    section,
+    .card {
+        margin: 0;
+    }
+
+    .card {
+        border-radius: 0;
+        box-shadow: 0 0 0 0
+    }
+
+    main {
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+    }
+
+}
