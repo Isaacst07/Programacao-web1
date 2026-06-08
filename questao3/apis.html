@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIs Públicas - Questão 3</title>
+    <link rel="stylesheet" href="../css/apis.css">
+    <script defer src="apis.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>APIs Públicas</h1>
+        <nav>
+            <a href="#secao-pokemon">Pokédex</a>
+            <a href="#secao-receitas">Receitas</a>
+        </nav>
+    </header>
+
+    <!-- API 1: PokeAPI -->
+    <section id="secao-pokemon" class="secao">
+        <div class="container">
+            <h2>Pokédex <span class="badge">PokeAPI</span></h2>
+            <p class="descricao">Busque informações detalhadas sobre qualquer Pokémon pelo nome ou número.</p>
+
+            <div class="campo-busca">
+                <label for="nomePokemon">Nome ou número do Pokémon:</label>
+                <div class="input-grupo">
+                    <input
+                        type="text"
+                        id="nomePokemon"
+                        placeholder="Ex.: pikachu, charizard, 25..."
+                    >
+                    <button id="botaoBuscarPokemon">Buscar</button>
+                </div>
+            </div>
+
+            <div id="resultadoPokemon"></div>
+        </div>
+    </section>
+
+    <!-- API 2: TheMealDB -->
+    <section id="secao-receitas" class="secao secao-alt">
+        <div class="container">
+            <h2>Buscador de Receitas <span class="badge badge-laranja">TheMealDB</span></h2>
+            <p class="descricao">Pesquise receitas pelo nome do prato e descubra ingredientes e modo de preparo.</p>
+
+            <div class="campo-busca">
+                <label for="nomeReceita">Nome do prato:</label>
+                <div class="input-grupo">
+                    <input
+                        type="text"
+                        id="nomeReceita"
+                        placeholder="Ex.: chicken, pasta, sushi..."
+                    >
+                    <button id="botaoBuscarReceita" class="btn-laranja">Buscar</button>
+                </div>
+            </div>
+
+            <div id="resultadoReceita"></div>
+        </div>
+    </section>
+
+</body>
+</html>
